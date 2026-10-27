@@ -3339,6 +3339,42 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Throw Press",
+                    "type": "Button",
+                    "id": "b75cf5f7-8159-4ca5-ab5b-01b32da015b5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Throw Position",
+                    "type": "PassThrough",
+                    "id": "33e6cfc2-0236-4d40-9f2e-f72264c933c6",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Screen Press",
+                    "type": "Button",
+                    "id": "e59a1ca3-e257-4263-85aa-21fbfb776b3e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Screen Position",
+                    "type": "PassThrough",
+                    "id": "9e73763a-e25b-46f9-8647-2cf9a34d9d6d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -3638,6 +3674,50 @@
                     "action": "Spawn Object",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "39239395-df0a-4811-aeb0-1b9ee6e54eb6",
+                    "path": "<Pointer>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throw Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "209fc888-22f2-4e8e-a0e8-96e87f47ad77",
+                    "path": "<Pointer>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throw Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "599aecc0-61dc-4d75-b969-903c6b687a9f",
+                    "path": "<Pointer>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Screen Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3fa2e090-fd9e-4205-ae6e-825db2bdb67a",
+                    "path": "<Pointer>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Screen Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
